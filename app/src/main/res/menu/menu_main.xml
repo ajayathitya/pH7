@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_call"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="new post" />
+    <item
+        android:id="@+id/action_text"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="new activity"/>
+    <item
+        android:id="@+id/action_email"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="calculate calories" />
+    <item
+        android:id="@+id/action_step"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Step counter" />
+    <item
+        android:id="@+id/calculate_heartbeat"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Calculate Heart beat" />
+    <item
+        android:id="@+id/play_game"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="VR Game" />
+</menu>

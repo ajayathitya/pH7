@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".Survey">
+
+    <TextView
+        android:id="@+id/question"
+        android:textSize="40dp"
+        android:textColor="#000"
+        android:text="Question"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+<RelativeLayout
+    android:layout_below="@+id/question"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/optioncontainer"
+        android:layout_marginLeft="20px"
+        android:padding="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/opa"
+            android:text="option"
+            android:layout_width="600px"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/opb"
+            android:text="option"
+            android:layout_width="600px"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="option"
+            android:id="@+id/opc"
+            android:layout_width="600px"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="option"
+            android:id="@+id/opd"
+            android:layout_width="600px"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/optioncontainer"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginLeft="150dp"
+            android:id="@+id/nextbtn"
+            android:text="next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+
+
+</RelativeLayout>
